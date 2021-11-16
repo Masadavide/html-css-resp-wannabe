@@ -73,15 +73,25 @@ img {
 }
 
 @media screen and (max-width:420px){
-  *{
-    font-size: 28px;
-  }
   body{
     margin: 0;
   }
 
+  *{
+    font-size: 12px;
+  }
+  
+  img{
+    height: 100px;
+  }
+
+  #why .row img{
+    height: 60px;
+    padding: 20px;
+  }
+
   .row{
-    height: 100%;
+    width: 100%;
     align-items: center;
     margin: 0;
   }
@@ -94,28 +104,28 @@ img {
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right{
-    width: 95%;
-    margin-bottom: 30px;
+    width: 100%;
+    margin-bottom: 20px;
   }
 
   h1{
-    font-size: 60px;
+    font-size: 30px;
     margin: 0;
   }
 
   h3{
     margin: 0;
-    font-size: 37px;
+    font-size: 25px;
   }
 
   #why .row>.first{
-    width: 95%;
+    width: 100%;
     margin: 0;
   }
 
   #why .row>.second,
   #why .row>.third{
-    width: 95%;
+    width: 100%;
     margin-top: 50px;
   }
 
@@ -138,9 +148,15 @@ img {
     margin: 0;
   }
 
+  #why img{
+    height: 140px;
+    padding: 20px;
+  }
+
   .row{
     align-items: center;
     margin: 0;
+    padding: 30px 0;
     width: 100%;
   }
 
@@ -152,8 +168,7 @@ img {
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right{
-    width: 95%;
-    margin-bottom: 30px;
+    width: 100%;
   }
 
   h1{
@@ -167,18 +182,14 @@ img {
   }
 
   #why .row>.first{
-    width: 95%;
+    width: 100%;
     margin: 0;
   }
 
   #why .row>.second,
   #why .row>.third{
-    width: 95%;
+    width: 100%;
     margin-top: 50px;
-  }
-
-  #why .row>.third{
-    margin-bottom: 30px;
   }
 
   hr{
