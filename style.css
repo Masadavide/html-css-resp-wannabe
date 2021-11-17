@@ -130,12 +130,16 @@ img {
   }
 }
 
-@media screen and (min-width:420px) and (max-width:1366px){
+@media screen and (min-width:420px) and (max-width:768px){
   *{
     margin: 0;
     border: 0;
     box-sizing: border-box;
-    font-size: 28px;
+    font-size: 24px;
+  }
+
+  img{
+    height: 150px;
   }
 
   #why img{
@@ -162,13 +166,11 @@ img {
   }
 
   h1{
-    font-size: 60px;
-    margin: 0;
+    font-size: 50px;
   }
 
   h3{
-    margin: 0;
-    font-size: 37px;
+    font-size: 30px;
   }
 
   #why .row>.first{
@@ -183,7 +185,6 @@ img {
   }
 
   hr{
-    margin: 0;
     border: 1px solid black;
   }
 }
